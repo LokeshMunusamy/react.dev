@@ -1,0 +1,199 @@
+
+{
+  "title": "Doc",
+  "path": "/docs/v2",
+  "routes": [
+    {
+      "hasSectionHeader": true,
+      "sectionHeader": "Overview"
+    },
+    {
+      "title": "Overview",
+      "path": "/docs/v2",
+      "routes": [
+        {
+          "title": "QA Touch Architecture",
+          "path": "/docs/v2/architectural-basics"
+        },
+        {
+          "title": "Basic Terminologies", 
+          "path": "/docs/v2/Basic-Terminologies"
+        },
+        {
+          "title": "Best Practices of Test Management",
+          "path": "/docs/v2/bestpractice"
+        }
+      ]
+    },
+    {
+      "hasSectionHeader": true,
+      "sectionHeader": "Getting Started"
+    },
+    {
+        "title": "New User Registration",
+        "path": "/docs/v2/onboarding",
+        "routes": [
+            {
+            
+                "title": "How to upgrade QA Touch Account",
+                "path": "/docs/v2/upgrade"
+            }
+        ]
+        
+    },
+
+    {
+      "hasSectionHeader": true,
+      "sectionHeader": "Preparing Data to Import"
+    },
+
+    {
+      "title": "Preparing The Data to Import Test Cases",
+      "path": "/docs/v2/datamigration"
+    },
+
+    {
+      "hasSectionHeader": true,
+      "sectionHeader": "Agile Board"
+    },
+
+    {
+      "title": "Boards",
+      "path": "/docs/v2/boards" 
+    },
+
+    {
+      "hasSectionHeader": true,
+      "sectionHeader": "Timesheet"
+    },
+    {
+        "title": "Timesheet",
+        "path": "/docs/v2/timesheet"
+    },
+    {
+      "hasSectionHeader": true,
+      "sectionHeader": "Theme"
+    },
+    {
+        "title": "Ligth - Dark Theme ",
+        "path": "/docs/v2/theme"
+    },
+
+    {
+      "hasSectionHeader": true, 
+      "sectionHeader": "AI Powered Features"
+    },
+    {
+        "title": "AI BDD Test Script Generation",
+        "path": "/docs/v2/chatgpt",
+        
+      "routes": [
+      
+        {
+          "title": "Test Case Creation from Images",
+          "path": "/docs/v2/AIImage"
+        },
+        {
+          "title": "Test Case Generation from JIRA",
+          "path": "https://www.qatouch.com/blog/jira-ai-test-case-generation/"
+        },
+        {
+          "title": "Multi Test Cases using AI Prompt", 
+          "path": "https://www.qatouch.com/blog/introducing-generate-multi-test-cases-using-ai-prompt-in-qa-touch/"
+        },
+        {
+          "title": "Multi Test Cases using Image",
+          "path": "https://www.qatouch.com/blog/introducing-generate-multi-test-cases-using-ai-prompt-in-qa-touch/"
+        }
+      ]
+    },
+    {
+    
+      "hasSectionHeader": true,
+      "sectionHeader": "Project Management"
+    
+    },
+    {
+        "title": "WorkSpace",
+        "path": "/docs/v2/workspace",
+        
+      "routes": [
+      
+        {
+          "title": "Projects",
+          "path": "/docs/v2/project-management"
+        },
+        {
+          "title": "Project Role",
+          "path": "/docs/v2/project-role"
+        }
+      ]
+    },
+    {
+      "hasSectionHeader": true,
+      "sectionHeader": "Requirements"
+    },
+    {
+      "title": "Requirements",
+        "path": "/docs/v2/Add-Requirement",
+        
+      "routes": [
+      
+        {
+          "title": "Mind Map",
+          "path": "/docs/v2/mindMap"
+        },
+        {
+          "title": "Attachments",
+          "path": "/docs/v2/Attachments"
+        }
+      ]
+    },
+
+    {
+      "hasSectionHeader": true,
+      "sectionHeader": "Test Case Management"
+    },
+    {
+      "title": "Modules",
+        "path": "/docs/v2/modules",
+        
+      "routes": [
+      
+        {
+          "title": "Test Cases",
+          "path": "/docs/v2/testCases"
+        },
+        {
+          "title": "Review Management",
+          "path": "/docs/v2/testcaseapprove"
+        },
+        {
+          "title": "Search",
+          "path": "/docs/v2/Search"
+        },
+        {
+          "title": "Test Case Version History",
+          "path": "/docs/v2/testcaseversion"
+        },
+        {
+          "title": "Tag Management",
+          "path": "/docs/v2/tagmanagement"
+        },
+        {
+          "title": "Graphical Test Case Report",
+          "path": "/docs/v2/testcasereport"
+        },
+        {
+          "title": "Graphical Custom Fields Report",
+          "path": "/docs/v2/testcasecustomfield"
+        },
+        {
+          "title": "Shareable Public Reports by Test Case",
+          "path": "/docs/v2/shareablereports"
+        }
+      ]
+    }
+
+  ]
+}

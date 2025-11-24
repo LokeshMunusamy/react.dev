@@ -152,7 +152,7 @@ export function HomeContent() {
               size="lg"
               className="w-full sm:w-auto justify-center"
               label="Learn React">
-              Learn React
+              Getting Started
             </ButtonLink>
             <ButtonLink
               href={'/reference/react'}

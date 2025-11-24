@@ -17,6 +17,7 @@ import sidebarLearn from '../sidebarLearn.json';
 import sidebarReference from '../sidebarReference.json';
 import sidebarCommunity from '../sidebarCommunity.json';
 import sidebarBlog from '../sidebarBlog.json';
+import sidebarDocs from '../sidebarDocs.json';
 import {MDXComponents} from 'components/MDX/MDXComponents';
 import compileMDX from 'utils/compileMDX';
 import {generateRssFeed} from '../utils/rss';
@@ -46,6 +47,9 @@ export default function Layout({content, toc, meta, languages}) {
     case 'blog':
       routeTree = sidebarBlog;
       break;
+    case 'docs/v2':
+      routeTree = sidebarDocs;
+      break;
   }
   return (
     <Page
@@ -72,6 +76,8 @@ function useActiveSection() {
     return 'community';
   } else if (asPath.startsWith('/blog')) {
     return 'blog';
+  } else if (asPath.startsWith('/docs')) {
+    return 'docs/v2';
   } else {
     return 'unknown';
   }

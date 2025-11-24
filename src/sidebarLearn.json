@@ -1,81 +1,61 @@
 {
-  "title": "Learn React",
+  "title": "Doc",
   "path": "/learn",
   "routes": [
     {
       "hasSectionHeader": true,
-      "sectionHeader": "GET STARTED"
+      "sectionHeader": "Overview"
     },
     {
-      "title": "Quick Start",
+      "title": "Overview",
       "path": "/learn",
-      "routes": [
-        {
-          "title": "Tutorial: Tic-Tac-Toe",
+      "routes": [{
+          "title": "QA Touch Architectture",
           "path": "/learn/tutorial-tic-tac-toe"
         },
         {
-          "title": "Thinking in React",
+          "title": "Basic-Terminologies",
           "path": "/learn/thinking-in-react"
-        }
+        },
+        {
+          "title": "Best Pratices of Test Management",
+          "path": "/learn/best-practices-of-test-management"
+        }        
       ]
     },
     {
-      "title": "Installation",
+      "title": "Getting Started",
       "path": "/learn/installation",
       "routes": [
         {
-          "title": "Creating a React App",
+          "title": "New User Registration",
           "path": "/learn/creating-a-react-app"
         },
         {
-          "title": "Build a React App from Scratch",
+          "title": "How to upgrade Qa Touch Account",
           "path": "/learn/build-a-react-app-from-scratch"
-        },
-        {
-          "title": "Add React to an Existing Project",
-          "path": "/learn/add-react-to-an-existing-project"
         }
+      
       ]
     },
     {
-      "title": "Setup",
+      "title": "Preparing Data to Import",
       "path": "/learn/setup",
       "routes": [
         {
-          "title": "Editor Setup",
+          "title": "Preparing The Data to Import Test Casest",
           "path": "/learn/editor-setup"
-        },
-        {
-          "title": "Using TypeScript",
-          "path": "/learn/typescript"
-        },
-        {
-          "title": "React Developer Tools",
-          "path": "/learn/react-developer-tools"
         }
       ]
     },
     {
-      "title": "React Compiler",
+      "title": "Agile Board",
       "path": "/learn/react-compiler",
       "canary": true,
       "routes": [
         {
-          "title": "Introduction",
+          "title": "Boards",
           "path": "/learn/react-compiler/introduction"
-        },
-        {
-          "title": "Installation",
-          "path": "/learn/react-compiler/installation"
-        },
-        {
-          "title": "Incremental Adoption",
-          "path": "/learn/react-compiler/incremental-adoption"
-        },
-        {
-          "title": "Debugging and Troubleshooting",
-          "path": "/learn/react-compiler/debugging"
         }
       ]
     },
